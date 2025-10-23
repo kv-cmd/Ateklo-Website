@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Novagen",
+    "description": "Computational platform turning academic bio-discoveries into therapeutics.",
+    "logo": "assets/img/logos/placeholder-1.svg",
+    "url": "https://example.com/novagen",
+    "tags": ["Bio", "AI"]
+  },
+  {
+    "name": "FluxSense",
+    "description": "Fiber sensor tech for structural health monitoring at scale.",
+    "logo": "assets/img/logos/placeholder-2.svg",
+    "url": "https://example.com/fluxsense",
+    "tags": ["Sensors", "Hardware"]
+  },
+  {
+    "name": "HelioChem",
+    "description": "Sun-powered green chemistry for specialty materials.",
+    "logo": "assets/img/logos/placeholder-3.svg",
+    "url": "https://example.com/heliochem",
+    "tags": ["Climate", "Materials"]
+  },
+  {
+    "name": "QubitWorks",
+    "description": "Room-temperature quantum components for secure communications.",
+    "logo": "assets/img/logos/placeholder-4.svg",
+    "url": "https://example.com/qubitworks",
+    "tags": ["Quantum", "Security"]
+  },
+  {
+    "name": "NeuraSight",
+    "description": "Foundation models for scientific imaging and discovery.",
+    "logo": "assets/img/logos/placeholder-5.svg",
+    "url": "https://example.com/neurasight",
+    "tags": ["AI", "Research"]
+  },
+  {
+    "name": "ArcPilot",
+    "description": "AI copilots for advanced manufacturing lines.",
+    "logo": "assets/img/logos/placeholder-6.svg",
+    "url": "https://example.com/arcpilot",
+    "tags": ["AI", "Industrial"]
+  }
+]
