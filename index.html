@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ateklo — Venture Studio</title>
+  <meta name="description" content="Ateklo is a venture-building corporation commercializing scientific discoveries and uncovering technological innovations." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="assets/img/logo.svg" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="Ateklo home">
+        <img src="assets/img/logo.svg" alt="" />
+        <span>ateklo</span>
+      </a>
+      <nav>
+        <a href="#mission">Mission</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="top" class="hero">
+    <img class="hero-bg" src="assets/img/hero-bg.svg" alt="" aria-hidden="true"/>
+    <div class="container hero-inner">
+      <h1>
+        A New Kind of<br />
+        <span class="gradient">Tech Company</span>
+      </h1>
+      <p class="lead">
+        We discover, develop, and grow overlooked academic innovation into venture-backed companies.
+      </p>
+      <div class="hero-cta">
+        <a class="cta ghost" href="#portfolio">Explore Portfolio</a>
+        <a class="cta" href="#contact">Partner with us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission -->
+  <section id="mission" class="section">
+    <div class="container">
+      <h2 class="section-title">Our Mission</h2>
+      <p class="section-subtitle">
+        Discover, develop, and grow overlooked talent and technological innovation hidden within academia.
+      </p>
+
+      <div class="cards3 reveal">
+        <div class="card">
+          <img src="assets/img/icons/discover.svg" alt="" />
+          <h3>Discover</h3>
+          <p>Identify breakthrough research and untapped potential in academic institutions.</p>
+        </div>
+        <div class="card">
+          <img src="assets/img/icons/develop.svg" alt="" />
+          <h3>Develop</h3>
+          <p>Transform scientific discoveries into viable products and solutions.</p>
+        </div>
+        <div class="card">
+          <img src="assets/img/icons/grow.svg" alt="" />
+          <h3>Grow</h3>
+          <p>Scale ventures and nurture founding teams to create lasting market impact.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="section">
+    <div class="container">
+      <h2 class="section-title">Our Portfolio</h2>
+      <p class="section-subtitle">Ventures we’re incubating and supporting.</p>
+
+      <!-- Filters (auto from JSON tags) -->
+      <div id="filters" class="filters" role="tablist" aria-label="Portfolio filters"></div>
+
+      <!-- Tiles -->
+      <div id="grid" class="grid reveal"></div>
+
+      <!-- Empty fallback -->
+      <div id="empty" class="empty" hidden>
+        <div class="empty-card">
+          <div class="plus">+</div>
+          <h4>Coming soon…</h4>
+          <p>We have exciting announcements about our portfolio companies. Stay tuned.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <p class="section-subtitle">
+        We’re always looking for talent and new partnerships. If you’re interested in learning more, reach out.
+      </p>
+      <a class="cta" href="mailto:contact@ateklo.com">contact@ateklo.com</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Ateklo. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
