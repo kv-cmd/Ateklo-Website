@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="36" viewBox="0 0 140 36">
+  <defs><linearGradient id="p" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#8a5cf6"/><stop offset="1" stop-color="#ff7a59"/>
+  </linearGradient></defs>
+  <rect x="0" y="6" width="36" height="24" rx="6" fill="url(#p)"/>
+  <text x="46" y="24" font-size="16" font-family="Inter, Arial" fill="#eaeaff" font-weight="700">Company</text>
+</svg>
