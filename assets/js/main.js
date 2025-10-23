@@ -1,7 +1,7 @@
 // footer year
 document.getElementById('year').textContent = new Date().getFullYear();
 
-// Companies grid + filters (no coming-soon fallback)
+// Companies grid + filters
 (async () => {
   const grid = document.getElementById('grid');
   const filters = document.getElementById('filters');
