@@ -2,21 +2,21 @@
   {
     "name": "Intangible Partners",
     "description": "Venture 1 — a partner platform accelerating commercialization for student-led research.",
-    "logo": "assets/img/logos/intangible.svg",
+    "logo": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='32' cy='32' r='28' fill='rgb(138,92,246)'/><text x='32' y='39' text-anchor='middle' font-family='Arial' font-size='22' font-weight='700' fill='white'>IP</text></svg>",
     "url": "https://example.com/intangible-partners",
     "tags": ["Partners", "Platform"]
   },
   {
     "name": "Weather Technology",
     "description": "Venture 2 — sensing + modeling to forecast and mitigate climate risk.",
-    "logo": "assets/img/logos/weather.svg",
+    "logo": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='32' cy='32' r='28' fill='rgb(105,199,255)'/><text x='32' y='39' text-anchor='middle' font-family='Arial' font-size='22' font-weight='700' fill='white'>WT</text></svg>",
     "url": "https://example.com/weather-tech",
     "tags": ["Climate", "Sensors"]
   },
   {
     "name": "Biotech Technologies",
     "description": "Venture 3 — translating frontier biology into scalable therapeutics & tools.",
-    "logo": "assets/img/logos/biotech.svg",
+    "logo": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='32' cy='32' r='28' fill='rgb(124,246,178)'/><text x='32' y='39' text-anchor='middle' font-family='Arial' font-size='22' font-weight='700' fill='rgb(32,32,32)'>BT</text></svg>",
     "url": "https://example.com/biotech",
     "tags": ["Bio", "DeepTech"]
   }
