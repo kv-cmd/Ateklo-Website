@@ -4,116 +4,175 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Ateklo — Venture Studio</title>
-  <meta name="description" content="Ateklo is a venture-building corporation commercializing scientific discoveries and uncovering technological innovations." />
+  <meta name="description" content="We identify overlooked student talent to discover, create, and build ventures that redefine how frontier science solves industry’s toughest problems." />
+  <link rel="icon" href="assets/img/logo.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css" />
-  <link rel="icon" href="assets/img/logo.svg" />
+  <script type="application/ld+json">
+  { "@context":"https://schema.org", "@type":"Organization",
+    "name":"Ateklo", "url":"https://kv-cmd.github.io/Ateklo-Website/",
+    "logo":"https://kv-cmd.github.io/Ateklo-Website/assets/img/logo.svg",
+    "description":"Venture studio discovering, creating, and building deep-tech companies from overlooked student talent." }
+  </script>
 </head>
-
 <body>
-  <!-- Header -->
+  <a class="skip" href="#main">Skip to content</a>
+
   <header class="site-header">
     <div class="container nav">
-      <a class="brand" href="#top" aria-label="Ateklo home">
-        <img src="assets/img/logo.svg" alt="" />
+      <a class="brand" href="#">
+        <img src="assets/img/logo.svg" alt="" width="22" height="22"/>
         <span>ateklo</span>
       </a>
-      <nav>
-        <a href="#mission">Mission</a>
-        <a href="#portfolio">Portfolio</a>
+      <nav aria-label="Primary">
+        <a href="#philosophy">Philosophy</a>
+        <a href="#approach">Approach</a>
+        <a href="#portfolio">Companies</a>
+        <a href="#insights">Insights</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
-  <!-- Hero -->
-  <section id="top" class="hero">
-    <img class="hero-bg" src="assets/img/hero-bg.svg" alt="" aria-hidden="true"/>
-    <div class="container hero-inner">
-      <h1>
-        A New Kind of<br />
-        <span class="gradient">Tech Company</span>
-      </h1>
-      <p class="lead">
-        We discover, develop, and grow overlooked academic innovation into venture-backed companies.
-      </p>
-      <div class="hero-cta">
-        <a class="cta ghost" href="#portfolio">Explore Portfolio</a>
-        <a class="cta" href="#contact">Partner with us</a>
+  <main id="main">
+    <!-- Hero -->
+    <section id="philosophy" class="hero">
+      <img class="hero-bg" src="assets/img/hero-bg.svg" alt="" aria-hidden="true"/>
+      <div class="container hero-inner">
+        <h1>
+          We identify overlooked student talent to <span class="nowrap">discover, create,</span> and build ventures
+          that redefine how frontier <span class="gradient">science solves industry’s toughest problems.</span>
+        </h1>
+        <p class="lead">
+          From lab to market: turning hidden academic breakthroughs into companies that matter.
+        </p>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Mission -->
-  <section id="mission" class="section">
-    <div class="container">
-      <h2 class="section-title">Our Mission</h2>
-      <p class="section-subtitle">
-        Discover, develop, and grow overlooked talent and technological innovation hidden within academia.
-      </p>
-
-      <div class="cards3 reveal">
-        <div class="card">
-          <img src="assets/img/icons/discover.svg" alt="" />
-          <h3>Discover</h3>
-          <p>Identify breakthrough research and untapped potential in academic institutions.</p>
-        </div>
-        <div class="card">
-          <img src="assets/img/icons/develop.svg" alt="" />
-          <h3>Develop</h3>
-          <p>Transform scientific discoveries into viable products and solutions.</p>
-        </div>
-        <div class="card">
-          <img src="assets/img/icons/grow.svg" alt="" />
-          <h3>Grow</h3>
-          <p>Scale ventures and nurture founding teams to create lasting market impact.</p>
+    <!-- Belief + image -->
+    <section class="section">
+      <div class="container">
+        <div class="two-col">
+          <figure class="media">
+            <!-- Replace with your real image if desired -->
+            <img src="assets/img/campus.jpg" alt="University building with Ateklo signage" loading="lazy">
+          </figure>
+          <div class="copy">
+            <h2 class="h2">We believe the greatest opportunities of our time are hidden inside the minds of students working in university labs.</h2>
+            <p>
+              Each year, billions fund discoveries that never reach the market. Ateklo's intelligence engine uncovers
+              untapped talent and commercial opportunities, transforming them into ventures that bridge academic
+              research and industry.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Portfolio -->
-  <section id="portfolio" class="section">
-    <div class="container">
-      <h2 class="section-title">Our Portfolio</h2>
-      <p class="section-subtitle">Ventures we’re incubating and supporting.</p>
-
-      <!-- Filters (auto from JSON tags) -->
-      <div id="filters" class="filters" role="tablist" aria-label="Portfolio filters"></div>
-
-      <!-- Tiles -->
-      <div id="grid" class="grid reveal"></div>
-
-      <!-- Empty fallback -->
-      <div id="empty" class="empty" hidden>
-        <div class="empty-card">
-          <div class="plus">+</div>
-          <h4>Coming soon…</h4>
-          <p>We have exciting announcements about our portfolio companies. Stay tuned.</p>
+    <!-- Our Approach -->
+    <section id="approach" class="section">
+      <div class="container">
+        <h2 class="h2 c">Our Approach</h2>
+        <div class="cards">
+          <article class="card">
+            <img src="assets/img/icons/discover.svg" alt="" width="28" height="28">
+            <h3>Discover</h3>
+            <p>
+              Our intelligence engine uses proprietary data to identify overlooked talent and untapped commercial
+              opportunities, enabling us to discover hidden potential at the frontiers of science with commercial applications.
+            </p>
+          </article>
+          <article class="card">
+            <img src="assets/img/icons/create.svg" alt="" width="28" height="28">
+            <h3>Create</h3>
+            <p>
+              Once data-driven insights align with collaborative team formation, we co-create a new venture.
+              Through close industry partnerships, we de-risk commercialization and design ventures for rapid impact from day one.
+            </p>
+          </article>
+          <article class="card">
+            <img src="assets/img/icons/build.svg" alt="" width="28" height="28">
+            <h3>Build</h3>
+            <p>
+              From ideation to exit, we provide the infrastructure, capital pathways, and operational framework to
+              accelerate venture growth and scale frontier technologies that define new markets or create immediate value for industry.
+            </p>
+          </article>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Contact -->
-  <section id="contact" class="section contact">
-    <div class="container">
-      <h2 class="section-title">Contact Us</h2>
-      <p class="section-subtitle">
-        We’re always looking for talent and new partnerships. If you’re interested in learning more, reach out.
-      </p>
-      <a class="cta" href="mailto:contact@ateklo.com">contact@ateklo.com</a>
-    </div>
-  </section>
+    <!-- Companies -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <h2 class="h2 c">Our Companies</h2>
+        <p class="sub c">We’re building the future with ventures across autonomy, sensors, interfaces, climate, and biotech.</p>
+
+        <!-- Filters (auto) -->
+        <div id="filters" class="filters" role="tablist" aria-label="Company filters"></div>
+
+        <!-- Tiles (auto from JSON) -->
+        <div id="grid" class="grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- Insights & Stories -->
+    <section id="insights" class="section">
+      <div class="container">
+        <h2 class="h2 c">Insights &amp; Stories</h2>
+
+        <div class="insights">
+          <article class="insight">
+            <a href="#" aria-label="Ateklo Thesis: Overlooked Student Genius (article)">
+              <div class="card-bg"></div>
+              <div class="meta"><span class="pill">Featured</span></div>
+              <h3>Ateklo Thesis: Overlooked Student Genius</h3>
+              <p>Exploring how we’ve systemically overlooked the genius that can drive societal advancement. We break down the gap, quantify the opportunity, and share our plan to change the status quo.</p>
+              <small>Published</small>
+            </a>
+          </article>
+
+          <article class="insight">
+            <a href="#" aria-label="How We Define DeepTech">
+              <div class="card-bg"></div>
+              <div class="meta"><span class="pill pill-orange">Perspective</span></div>
+              <h3>How We Define DeepTech</h3>
+              <p>Coming soon</p>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="h2 c">Let’s build something extraordinary together.</h2>
+
+        <div class="contact-grid">
+          <div>
+            <h4>For Entrepreneurs &amp; Researchers</h4>
+            <p>If you're working on breakthrough technology and looking for the right partner to bring your vision to market, we want to hear from you.</p>
+          </div>
+          <div>
+            <h4>For Institutions &amp; Partners</h4>
+            <p>We collaborate with universities, research institutions, and strategic partners to unlock innovation potential.</p>
+          </div>
+        </div>
+
+        <p class="c"><a class="btn" href="mailto:contact@ateklo.com">contact@ateklo.com</a></p>
+      </div>
+    </section>
+  </main>
 
   <footer class="site-footer">
-    <div class="container">
+    <div class="container c">
       <small>© <span id="year"></span> Ateklo. All rights reserved.</small>
     </div>
   </footer>
 
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js" defer></script>
 </body>
 </html>
